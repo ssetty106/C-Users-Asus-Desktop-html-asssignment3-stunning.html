@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+body  {
+    margin: 0;
+    font-family: ;
+}
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #5243c0;
+}
+a:hover{
+    opacity: 9;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+.common-btn {
+    background: #ffd80b;
+    border-radius: 20PX;
+    padding: 14px 21px;
+}
+.common-btn.dark {
+    background: #5243c0;
+    color: #fff;
+}
+.container {
+    max-width: 1000px;
+    padding: 0 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header {
+    background: #f2f2f2;
+    padding: 10px 0;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+header img {
+    width: 100px;
+}
+header ul li {
+    display: inline-block;
+}
+header ul li a {
+    color: grey;
+    margin: 0 15px;
+    padding-bottom: 5px;
+}
+header ul li a:hover,
+header ul li a.active {
+    border-bottom: 4px solid #5243C0;
+    color: #5243C0;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+}
+main .content,
+main .bannner {
+    padding: 30px;
+}
+main .content {
+    width: 400px;
+}
+main .content div {
+    display: flex;
+    margin: 20px 0 30px;
+}
+main .content div a {
+    margin-right: 20px;
+}
+main .content div button {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 50px;
+    background-image: url(img/arrow-up.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+main .content div button;:last-child {
+    background-image: url(img/down-arrow.png);
+}
+main .content ul li {
+    background: #fafafa;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 330px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 4px #f1f1f1;
+    transition: all .2s;
+}
+main .content ul li:hover,
+main .content ul li.active {
+    background: #fff;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+main .content ul li:last-child {
+    margin: opx;
+}
+main .content ul li .title {
+    width: 130px;
+}
+main .content ul li .date {
+    color: #c6c5c3;
+}
+main .content ul li .tag {
+    width: 23px;
+    height: 14px;
+    border-radius: 10px;
+    background: red;
+    display: inline-block;
+}
+main .content ul li .tag.lightred {
+    background: #fed7da;
+}
+main .content ul li .tag.red {
+    background: #fe7448;
+}
+main .content ul li .tag.green {
+    background: #9ed095;
+}
+main .content ul li .tag.lightorange {
+    background: #fee1a0;
+}
+main .bannner img {
+    width: 100px;
+}
